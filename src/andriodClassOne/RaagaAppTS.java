@@ -9,8 +9,10 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import andriodClassOne.BaseDeviceType.DeviceType;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
@@ -18,13 +20,13 @@ import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.remote.MobilePlatform;
 
 public class RaagaAppTS {
-//	AndroidDriver<AndroidElement> driver = null;
-//	DesiredCapabilities cap = null;
+	AndroidDriver<AndroidElement> driver = null;
+	DesiredCapabilities cap = null;
 	
-//	@BeforeClass
-//	public void init() throws MalformedURLException {
-//		driver = new Base().getDriver();	
-//	}
+	@BeforeClass
+	public void init() throws MalformedURLException {
+		driver = BaseDeviceType.getDriver(DeviceType.EMULATOR);	
+	}
 
 	@Test
 	public void raagaAppEndToEnd() throws MalformedURLException {
