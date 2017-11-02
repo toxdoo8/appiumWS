@@ -1,4 +1,4 @@
-package andriodClassOne;
+package andriodautomation;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import andriodClassOne.Base.DeviceType;
+import andriodautomation.Base.DeviceType;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileBrowserType;

@@ -1,4 +1,4 @@
-package andriodClassOne;
+package andriodautomation;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -12,7 +12,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import andriodClassOne.BaseDeviceType.DeviceType;
+import andriodautomation.BaseDeviceType.DeviceType;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;

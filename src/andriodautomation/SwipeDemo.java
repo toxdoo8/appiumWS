@@ -1,4 +1,4 @@
-package andriodClassOne;
+package andriodautomation;
 
 import java.net.MalformedURLException;
 
